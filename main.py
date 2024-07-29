@@ -1,5 +1,5 @@
 # This program is a simple Higher or Lower game that pulls data from a pre-existing list
-# of people/things. It makes use of user input, dictionaries, and functions. 
+# of people/things. It makes use of user input, dictionaries, and methods. 
 # Programmed by Alexander Peng on 2024/07/28
 
 import random
@@ -32,7 +32,7 @@ def check(guess, first, second):
     return guess == 'b'
 
 def game():
-    """Function that runs the Higher or Lower game"""
+    """Method that runs the Higher or Lower game"""
     lose = False
     first_turn = True
     item_B = ""
